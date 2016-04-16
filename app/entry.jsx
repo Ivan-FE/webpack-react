@@ -8,14 +8,17 @@
 'use strict';
 
 import React from 'react';
-import hello from './module/component.jsx';
+import Hello from './module/component.jsx';
+import ReactDOM from 'react-dom';
 
 const $header = document.createElement("div");
 
 $header.setAttribute('id',"header");
-$header.innerHTML = "66"
 
-React.render(
-    <hello />,
+
+document.body.appendChild($header);
+
+ReactDOM.render(
+    <Hello name="johan" />,
     document.getElementById("header")
 );
