@@ -1,2 +1,12 @@
 # webpack-react
-my learning process for webpack and react
+Webpack & React入门
+
+## 安装
+``` bash
+npm install
+```
+
+## 运行
+``` bash
+npm run dev
+```
